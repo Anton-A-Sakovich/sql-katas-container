@@ -1,0 +1,14 @@
+CREATE DATABASE [Kata] CONTAINMENT = NONE ON PRIMARY (
+	NAME = N'Kata',
+	FILENAME = N'/var/opt/mssql/data/Kata.mdf',
+	SIZE = 8192KB,
+	MAXSIZE = 1GB,
+	FILEGROWTH = 65536KB
+) LOG ON (
+	NAME = N'Kata_log',
+	FILENAME = N'/var/opt/mssql/data/Kata_log.ldf',
+	SIZE = 8192KB,
+	MAXSIZE = 1GB,
+	FILEGROWTH = 65536KB
+) WITH CATALOG_COLLATION = DATABASE_DEFAULT
+GO
