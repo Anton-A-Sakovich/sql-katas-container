@@ -1,0 +1,3 @@
+# Counting overlapping events
+
+https://www.codewars.com/kata/5977b6641e250a661a0000f0
